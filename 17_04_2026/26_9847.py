@@ -10,6 +10,7 @@ for line in f:
 for i in range(1, len(minutes)):
     minutes[i] += minutes[i - 1]
 
-
 print('643 643' in ' '.join(map(str, minutes)))
 print(' '.join(map(str, minutes)).count('643 643'))
+print(1 * 2 ** 3 + 1 * 2 + 1 + 2 ** (-2) + 2 * 8 + 4 + 6 * 8 ** (-1))
+print(hex(32))
